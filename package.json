@@ -1,0 +1,17 @@
+{
+  "name": "discord_chat_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "CistusF",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.6.0",
+    "moment-timezone": "^0.5.38",
+    "node-fetch": "^2.6.7",
+    "self-reload-json": "^0.4.0"
+  }
+}
