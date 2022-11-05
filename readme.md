@@ -3,7 +3,6 @@
 ## 1. 요구사항
 
 + node.js 16+
-+ discord.js v14
 
 ## 2. 설명
 Slash Command 기능과 널리 알려진 AI 챗봇인 심심이 기능을 구현 했습니다.
