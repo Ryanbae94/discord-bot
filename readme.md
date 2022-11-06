@@ -1,3 +1,5 @@
+[![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/Ryanbae94/discord-bot)
+
 # DISCORD BOT for winter internship assignment
 ---
 ## 1. 요구사항
