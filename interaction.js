@@ -28,13 +28,13 @@ const commands = [
         .setDescription("퀴즈게임을 진행합니다. 당신의 센스를 보겠습니다."),
 ]
 
-const rest = new REST({ version: '10' }).setToken(token);
+const rest = new REST({ version: '10' }).setToken(atob(token));
 
 (async () => {
     try {
         console.log('Started refreshing application (/) commands.');
 
-        await rest.put(Routes.applicationGuildCommands(clientId, guildId), { body: commands.map(c => c.toJSON()) });
+        await rest.put(Routes.applicationGuildCommands(atob(clientId), atob(guildId)), { body: commands.map(c => c.toJSON()) });
 
         console.log('Successfully reloaded application (/) commands.');
     } catch (error) {
